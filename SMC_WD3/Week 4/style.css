@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Slabo+27px&display=swap');
+
+.container p{
+    font-family: 'Slabo 27px', serif;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.container h1 {
+    font-family: 'Anton', sans-serif;
+    color: rgb(26, 21, 27);
+    font-size: 65px;
+}
+.navbar {
+    background-color: rgb(82, 29, 73);
+}
+.navbar-brand {
+    color: rgb(245, 245, 245);
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(https://www.shareicon.net/data/512x512/2015/11/29/679427_home_512x512.png);
+}
+a{
+    font-family: 'Slabo 27px', serif;
+}
+.collapse button {
+    color: white;
+    border-color: white;
+    font-family: 'Slabo 27px', serif;
+}
+.jumbotron {
+    background-size: cover;
+    background-position: center;
+}
+.btn-outline-light {
+    color: rgb(82, 29, 73);
+    background-color: rgb(82, 29, 73);
+}
+img {
+    width: 100%;
+}
+h5 {
+    font-family: 'Anton', sans-serif;
+    color: rgb(82, 29, 73);
+    font-size: 40px;
+}
+.card {
+    margin: 3px;
+}
