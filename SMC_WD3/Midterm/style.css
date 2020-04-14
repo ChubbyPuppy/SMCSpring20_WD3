@@ -32,7 +32,12 @@ a{
 .jumbotron {
     background-size: cover;
     background-position: center;
+    background-image: url("jumbotron_2.jpg");
+
 }
+
+
+
 .btn-outline-light {
     color: rgb(0, 78, 55);
     background-color: rgb(0, 78, 55);
