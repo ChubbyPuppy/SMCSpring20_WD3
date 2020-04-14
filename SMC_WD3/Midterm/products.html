@@ -31,6 +31,7 @@
     .jumbotron {
         background-size: cover;
         background-position: center;
+        color: white;
     }
 
     .btn-outline-light {
@@ -72,7 +73,7 @@
         font-family: 'Slabo 27px', serif;
     }
 
-    .display-4 {color: white; text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);}
+    .display-4 {font-family: 'Anton', sans-serif; color: white; text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);}
 
     .card {margin: 70px 0px 0px 0px;}
 </style>
@@ -96,8 +97,11 @@
                     <a class="nav-link" href="recipes.html">Recipes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="shop.html">Shop (3)</a>
-                </li>
+                  <a class="nav-link" href="products.html">Shop (3)</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ourteam.html">Our Team</a>
+            </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
@@ -136,7 +140,7 @@
               <li class="list-group-item d-flex justify-content-between lh-condensed">
                 <div>
                   <h6 class="my-0">Fatdapted MCT Oil</h6>
-                  <small class="text-muted">Quality: 1 - Texture: Extra Sandy</small>
+                  <small class="text-muted">Quality: 1 - 16 oz.</small>
                 </div>
                 <span class="text-muted">$10.99</span>
               </li>
@@ -156,7 +160,7 @@
               </li>
               <li class="list-group-item d-flex justify-content-between">
                 <span>Total (USD)</span>
-                <strong>$94.49</strong>
+                <strong>$29.49</strong>
               </li>
             </ul>
             <button class="btn btn-primary btn-lg btn-block proceed">Proceed to Checkout</button>
@@ -416,7 +420,91 @@
 
 
   </main>
-  <footer></footer>
+  <footer>
+
+    <style>
+        .inner-main img {
+        mix-blend-mode: luminosity;
+        width: 240px;
+        }
+
+        footer {
+            margin-top: 50px;
+            background-color: rgb(0, 78, 55);
+            padding: 30px;
+        }
+
+        footer .top {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer-header {
+            font-size: 28;
+            font-family: 'Sulphur Point', sans-serif;
+            color: white;
+            bottom: 10%;
+        }
+
+
+
+        .contact-container {
+            font-family: 'Sulphur Point', sans-serif;
+            color: white;
+        }
+
+        footer .main {
+            display: flex;
+            justify-content: space-between;
+            font-family: 'Sulphur Point', sans-serif;
+            color: white;
+        }
+
+        footer .left .inner-main {
+            font-family: 'Sulphur Point', sans-serif;
+            color: white;
+        }
+
+        footer .inner-main {
+            width: 40%;
+        }
+
+        footer .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            font-size: 3;
+            font-family: 'Sulphur Point', sans-serif;
+            color: white;
+        }
+
+        footer .footer-bottom ul {
+            display: flex;
+            font-size: 9;
+            font-family: 'Sulphur Point', sans-serif;
+            color: white;
+        }
+    </style>
+
+        <div class="main">
+            <div class="left inner-main">
+                <p>FATDAPTED is registered watermarked.
+                        © FATDAPTED All rights reserved.  </p>
+                <p> Terms &amp; Conditions | Private Policy</p>
+            </div>
+
+            <div class="right inner-main">
+                <h2 class="footer-header">Contact Info</h2>
+                <ul class="contact-container">
+                    <li><img src="" alt=""> Email: info@fatdapted.com </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <div>© FATDAPTED 2020</div>
+        </div>
+    </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
