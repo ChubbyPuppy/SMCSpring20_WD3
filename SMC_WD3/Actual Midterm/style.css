@@ -49,6 +49,13 @@ h5 {
     color: rgb(228, 168, 4);
     font-size: 40px;
 }
+
+h7 {
+    font-family: 'Anton', sans-serif;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
 .card {
     margin: 3px;
 }
