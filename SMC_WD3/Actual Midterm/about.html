@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  <title>BOBBLE</title>
+
+  <style>
+
+    .p {
+      text-align:center;
+    }
+
+    .cart {
+      padding: 50px;
+    }
+
+    .needs-validation {
+      padding: 50px;
+    }
+
+    .my-4 {
+      padding: 50px;
+    }
+
+    .jumbotron {
+        background-size: cover;
+        background-position: center;
+        color: white;
+        font-family: 'Slabo 27px', serif;
+    }
+
+    .btn-outline-light {
+        color: rgb(0, 0, 0);
+        border-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    .card .btn-primary .btn-lg .btn-block .proceed {
+      text-align: center;
+      color: rgb(194, 142, 0);
+      background-color: rgb(228, 168, 4);
+    }
+
+    .btn-outline-light:hover {
+        background-color: rgb(241, 121, 167);
+        color: white;
+    }
+
+    .navbar .nav-item .nav-link:hover {
+        color: white;
+    }
+
+    .card-body p {
+        color: #383D59;
+        font-size: 20px;
+    }
+
+    .card-body .card-text1 {
+        color: #69688C;
+        font-size: 28px;
+    }
+
+    .card-body .card-text2 {
+        color: #383D59;
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 40px;
+    }
+
+    .card-header {
+        background-color: rgb(82, 29, 73);
+        color: white;
+        font-family: 'Slabo 27px', serif;
+    }
+
+    .display-4 {font-family: 'Anton', sans-serif; color: white; text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);}
+
+
+    .card {margin: 70px 0px 100px 0px;}
+</style>
+
+<body>
+  <header>
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">BOBBLE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ourteam.html">Our Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="shop.html">Shop (3)</a>
+                </li>
+            </ul>
+                <div>  <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <span class="fa fa-gift bigicon"></span> (3) Items in Cart<span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-cart" role="menu">
+              <li>
+                  <span class="item">
+                    <span class="item-left">
+                        <img src="shop_1.png" alt="" />
+                        <span class="item-info">
+                            <span>Lolita Kiss Me Winter Coat</span>
+                            <span>Price: $70.00</span>
+                        </span>
+                    </span>
+                    <span class="item-right">
+                        <button class="btn btn-danger  fa fa-close"></button>
+                    </span>
+                </span>
+              </li>
+<li>
+                  <span class="item">
+                    <span class="item-left">
+                        <img src="shop_5.jpg" alt="" />
+                        <span class="item-info">
+                            <span>Lil Dolly-Doll Snow Booties</span>
+                            <span>Price: $45.00</span>
+                        </span>
+                    </span>
+                    <span class="item-right">
+                        <button class="btn btn-danger  fa fa-close"></button>
+                    </span>
+                </span>
+              </li>
+<li>
+                  <span class="item">
+                    <span class="item-left">
+                        <img src="about_1.jpg" alt="" />
+                        <span class="item-info">
+                            <span>Sweetheart Artist Cap</span>
+                            <span>Price: $12.50</span>
+                        </span>
+                    </span>
+                    <span class="item-right">
+                        <button class="btn btn-danger  fa fa-close"></button>
+                    </span>
+                </span>
+              </li>              
+              <li class="divider"></li>
+              <a href="cart.html" class="btn btn-outline-light">Go to Cart</a>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+        </div>
+    </nav>
+    <!-- /END NAVBAR -->
+
+
+    <style>
+
+      .dropdown-toggle{
+        color: rgb(228, 205, 129);
+        margin-left: 200px;
+      }
+
+      .dropdown-toggle:hover{
+        color: white;
+        text-decoration-line: none;
+      }
+     
+      ul.dropdown-cart{
+          min-width:250px;
+          border: 2px solid rgb(82, 29, 73);
+          padding: 2px;
+          margin: 7px;
+          margin-top: 11px;
+      }
+      ul.dropdown-cart li .item{
+          display:block;
+          padding:3px 10px;
+          margin: 3px 0;
+          
+      }
+      ul.dropdown-cart li .item:hover{
+          background-color:#ceb4c8;
+          
+      }
+      ul.dropdown-cart li .item:after{
+          visibility: hidden;
+          display: block;
+          font-size: 0;
+          content: " ";
+          clear: both;
+          height: 0;
+      }
+      
+      ul.dropdown-cart li .item-left{
+          float:center;
+      }
+      ul.dropdown-cart li .item-left img,
+      ul.dropdown-cart li .item-left span.item-info{
+          float:center;
+      }
+      ul.dropdown-cart li .item-left span.item-info{
+          margin-left:10px;   
+      }
+      ul.dropdown-cart li .item-left span.item-info span{
+          display:block;
+      }
+      ul.dropdown-cart li .item-right{
+          float:center;
+      }
+      ul.dropdown-cart li .item-right button{
+          margin-top:15px;
+          margin-bottom: 50px;
+      }   
+      </style>
+
+  </header>
+
+  <main>
+
+    <style>
+      .row {padding: 50px;}
+      .featurette-heading {color: rgb(228, 168, 4);}
+    </style>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+          <h1 class="display-4">ABOUT US</h1>
+          <p class="lead">Get to know us~!</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+        <div class="col-md-7">
+        <h2 class="featurette-heading">LIKE THE BEANIE FLUFF. <span class="text-muted"></span></h2>
+        <p class="lead">
+                        BOBBLE aims to make the outfits not look too rough like the Winter cold.
+                        Lolita is usually aimed for Spring, Summer, and Fall times, times where the weather
+                        isn't too harsh. With BOBBLE, Winter can be included indefinitely as well instead of
+                        relying on cotton fabric. 
+        </p>
+        </div>
+        <div class="col-md-5">
+        <picture>       
+        <img src="about_1.jpg" alt="halp">
+        </picture>      
+        </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading"> WHAT IS LOLITA? <span class="text-muted"></span></h2>
+        <p class="lead">Lolita (ロリータ・ファッション, rorīta fasshon) is a fashion subculture from Japan that is 
+            highly influenced by Victorian clothing and styles from the Rococo period. A very distinctive property 
+            of Lolita fashion is the aesthetic of cuteness. This style evolved into a widely followed subculture in Japan 
+            and other countries in the 1990s and 2000s and may have waned in Japan as of the 2010s as the fashion became more mainstream.
+        </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+        <picture>
+        <img src="about_2.jpg" alt="wat">
+        </picture>
+        </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+        <div class="col-md-7">
+        <h2 class="featurette-heading"> OUR MISSION<span class="text-muted"></span></h2>
+        <p class="lead">Our goal is to create a world of cuteness in the light of cold and snow. It is difficult enough 
+            to find winter outfits that look too stiff, dark, or unflattering when one wants to look cute. We also aim to
+            use part of our profits to organizations and charities that will help keep winter happy and healthy. Part of
+            our ethics include ensuring that the animals and environments affected by harsh climate change will continue to thrive.</p>
+        </div>
+        <div class="col-md-5">
+        <picture>       
+        <img src="about_3.jpg" alt="mission">
+        </picture>       
+        </div>
+        </div>
+
+        <hr class="featurette-divider">
+        </div>
+        </div>
+  </div>
+
+
+  </main>
+
+
+<footer>
+
+    <style>
+        .inner-main img {
+        mix-blend-mode: luminosity;
+        width: 240px;
+        }
+
+        footer {
+            margin-top: 50px;
+            background-color: rgb(228, 168, 4);
+            padding: 30px;
+        }
+
+        footer .top {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer-header {
+            font-size: 28;
+            font-family: 'Sulphur Point', sans-serif;
+            color: white;
+            bottom: 10%;
+        }
+
+
+
+        .contact-container {
+            font-family: 'Sulphur Point', sans-serif;
+            color: white;
+        }
+
+        footer .main {
+            display: flex;
+            justify-content: space-between;
+            font-family: 'Sulphur Point', sans-serif;
+            color: white;
+        }
+
+        footer .left .inner-main {
+            font-family: 'Sulphur Point', sans-serif;
+            color: white;
+        }
+
+        footer .inner-main {
+            width: 40%;
+        }
+
+        footer .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            font-size: 3;
+            font-family: 'Sulphur Point', sans-serif;
+            color: white;
+        }
+
+        footer .footer-bottom ul {
+            display: flex;
+            font-size: 9;
+            font-family: 'Sulphur Point', sans-serif;
+            color: white;
+        }
+    </style>
+
+        <div class="main">
+            <div class="left inner-main">
+                <p>BOBBLE is registered watermarked.
+                        © BOBBLE All rights reserved.  </p>
+                <p> Terms &amp; Conditions | Private Policy</p>
+            </div>
+
+            <div class="right inner-main">
+                <h2 class="footer-header">Contact Info</h2>
+                <ul class="contact-container">
+                    <li><img src="" alt=""> Email: info@bobble.com </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <div>© BOBBLE 2020</div>
+        </div>
+    </footer>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
