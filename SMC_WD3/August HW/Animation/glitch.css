@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+h1 { 
+  color: #fff;
+  font-size: 64px;
+  font-family: 'Source Code Pro', monospace;
+  letter-spacing: -7px;
+}
+
+p { 
+    display: flex;
+    color: #fff;
+    font-size: 64px;
+    font-family: 'Source Code Pro', monospace;
+    letter-spacing: -7px;
+  }
+  

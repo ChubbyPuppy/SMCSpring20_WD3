@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Roboto:wght@300&display=swap');
+
+.container p{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container .p2{
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container h1 {
+    font-family: 'Barrio', cursive;
+    color: whitesmoke;
+    font-size: 65px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.rounded-circle {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%!important;
+    width: 170px;
+    height: 170px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: rgb(99, 35, 10);
+    border-color: #ceb4c8;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: rgb(99, 35, 10);
+    border-color: #ceb4c8;
+    margin-bottom: 80px;
+}
+
+.carousel-control-prev {
+    color: white;
+}
+
+.navbar {
+    background-color: rgb(99, 35, 10);
+}
+.navbar-brand {
+    color: rgb(245, 245, 245);
+    font-family: 'Barrio', cursive;
+    font-size: 20px;
+}
+
+a{
+    font-family: 'Barrio', cursive;
+    background color: rgb(99, 35, 10);
+}
+.collapse button {
+    color: white;
+    border-color: white;
+    font-family: 'Slabo 27px', serif;
+}
+.jumbotron {
+    background-size: cover;
+    background-position: center;
+    background-image: url("jumbo_all3.jpg");
+
+}
+
+
+.btn-outline-light {
+    color: rgb(194, 142, 0);
+    background-color: rgb(99, 35, 10);
+}
+img {
+    width: 100%;
+}
+h5 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(228, 168, 4);
+    font-size: 40px;
+}
+
+.text-uppercase {
+    font-family: 'Barrio', cursive;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+.card {
+    margin: 3px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer .button {
+    color: white;
+}
+
+
+
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+  
+  /* Carousel base class */
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  
+  .btn-primary {
+      color: #fff;
+      background-color: rgb(99, 35, 10);
+      border-color: #ceb4c8;
+  }
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  

@@ -1,0 +1,594 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" href="carousel.css">
+  <title>CA'FINE</title>
+
+
+
+  <style>
+
+    .p {
+      text-align:center;
+    }
+
+    .cart {
+      padding: 50px;
+    }
+
+    .needs-validation {
+      padding: 50px;
+    }
+
+    .my-4 {
+      padding: 50px;
+    }
+
+    .jumbotron {
+        background-size: cover;
+        background-position: center;
+        color: white;
+        font-family: 'Slabo 27px', serif;
+    }
+
+    .myCarousel {
+        background-size: cover;
+        background-position: center;
+        color: white;
+        font-family: 'Slabo 27px', serif;
+    }
+
+    .btn-outline-light {
+        color: rgb(0, 0, 0);
+        border-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    .card .btn-primary .btn-lg .btn-block .proceed {
+      text-align: center;
+      color: rgb(99, 35, 10);
+      background-color: rgb(99, 35, 10);
+    }
+
+    .btn-outline-light:hover {
+        background-color: rgb(241, 121, 167);
+        color: white;
+    }
+
+    .navbar .nav-item .nav-link:hover {
+        color: white;
+    }
+
+    .card-body p {
+        color: #383D59;
+        font-size: 20px;
+    }
+
+    .card-body .card-text1 {
+        color: #69688C;
+        font-size: 28px;
+    }
+
+    .card-body .card-text2 {
+        color: #383D59;
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 40px;
+    }
+
+    .card-header {
+        background-color: rgb(82, 29, 73);
+        color: white;
+        font-family: 'Slabo 27px', serif;
+    }
+
+    .display-4 {font-family:'Barrio', cursive; color: white; text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);}
+
+
+    .card {margin: 70px 0px 100px 0px;}
+</style>
+
+<body>
+  <header>
+
+    <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+    </style>
+
+
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">CA'FINE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ourteam.html">Our Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="shop.html">Shop (3)</a>
+                </li>
+            </ul>
+                <div>  <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <span class="fa fa-gift bigicon"></span> (3) Items in Cart<span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-cart" role="menu">
+              <li>
+                  <span class="item">
+                    <span class="item-left">
+                        <img src="shop_1.png" alt="" />
+                        <span class="item-info">
+                            <span>Macchiato (Dark)</span>
+                            <span>Price: $70.00</span>
+                        </span>
+                    </span>
+                    <span class="item-right">
+                        <button class="btn btn-danger  fa fa-close"></button>
+                    </span>
+                </span>
+              </li>
+<li>
+                  <span class="item">
+                    <span class="item-left">
+                        <img src="shop_5.jpg" alt="" />
+                        <span class="item-info">
+                            <span>Lil Dolly-Doll Snow Booties</span>
+                            <span>Price: $45.00</span>
+                        </span>
+                    </span>
+                    <span class="item-right">
+                        <button class="btn btn-danger  fa fa-close"></button>
+                    </span>
+                </span>
+              </li>
+<li>
+                  <span class="item">
+                    <span class="item-left">
+                        <img src="about_1.jpg" alt="" />
+                        <span class="item-info">
+                            <span>Sweetheart Artist Cap</span>
+                            <span>Price: $12.50</span>
+                        </span>
+                    </span>
+                    <span class="item-right">
+                        <button class="btn btn-danger  fa fa-close"></button>
+                    </span>
+                </span>
+              </li>              
+              <li class="divider"></li>
+              <a href="cart.html" class="btn btn-outline-light">Go to Cart</a>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+        </div>
+    </nav>
+    <!-- /END NAVBAR -->
+
+
+    <style>
+
+      .dropdown-toggle{
+        color: whitesmoke;
+        margin-left: 200px;
+      }
+
+      .dropdown-toggle:hover{
+        color: white;
+        text-decoration-line: none;
+      }
+     
+      ul.dropdown-cart{
+          min-width:250px;
+          border: 2px solid #ceb4c8;
+          padding: 2px;
+          margin: 7px;
+          margin-top: 11px;
+      }
+      ul.dropdown-cart li .item{
+          display:block;
+          padding:3px 10px;
+          margin: 3px 0;
+          
+      }
+      ul.dropdown-cart li .item:hover{
+          background-color:#ceb4c8;
+          
+      }
+      ul.dropdown-cart li .item:after{
+          visibility: hidden;
+          display: block;
+          font-size: 0;
+          content: " ";
+          clear: both;
+          height: 0;
+      }
+      
+      ul.dropdown-cart li .item-left{
+          float:center;
+      }
+      ul.dropdown-cart li .item-left img,
+      ul.dropdown-cart li .item-left span.item-info{
+          float:center;
+      }
+      ul.dropdown-cart li .item-left span.item-info{
+          margin-left:10px;   
+      }
+      ul.dropdown-cart li .item-left span.item-info span{
+          display:block;
+      }
+      ul.dropdown-cart li .item-right{
+          float:center;
+      }
+      ul.dropdown-cart li .item-right button{
+          margin-top:15px;
+          margin-bottom: 50px;
+      }   
+      </style>
+
+  </header>
+
+  <main>
+
+    <style>
+      .row {padding: 25px;}
+      .featurette-heading {color: rgb(41, 16, 10); font-size: 60px;}
+      h2 {color: rgb(41, 16, 10); font-size: 30px; text-align: center;}
+      .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        }
+
+    </style>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" img href="https://images.unsplash.com/photo-1566568489845-05fc9dab0732?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"><rect width="100%" height="100%"></rect></svg>
+        <div class="container">
+          <div class="carousel-caption text-left">
+            <h1>IT'S WAKE UP TIME.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button" style="color: whitesmoke">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" img href="images/coffee_1.jpeg"></rect></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>SIMPLE DELIGHT.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button" style="color: whitesmoke">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" img href="images/coffee_3.jpeg"></rect></svg>
+        <div class="container">
+          <div class="carousel-caption text-right">
+            <h1>YUMMY.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button" style="color: whitesmoke">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <h2>WHAT IS CA'FINE?</h2>
+        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        <p><a class="btn btn-secondary" href="#" role="button" style="color: whitesmoke">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <h2>IS IT WORTH IT?</h2>
+        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+        <p><a class="btn btn-secondary" href="#" role="button" style="color: whitesmoke">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <h2>HEALTH BENEFITS</h2>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p><a class="btn btn-secondary" href="#" role="button" style="color: whitesmoke">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+  </div>
+
+
+    <div class="row">
+      <div class="col">
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+        <div class="col-md-7">
+        <h2 class="featurette-heading">YOU LIKE COFFEE? WE DO, TOO. <span class="text-muted"></span></h2>
+        <p class="lead">
+            Saucer at acerbic steamed whipped a brewed frappuccino affogato sweet. Grounds aftertaste mug, coffee to go crema extra robust. 
+            To go coffee froth, seasonal, latte breve blue mountain acerbic blue mountain. Ristretto, extraction, sweet, percolator plunger pot seasonal, 
+            single shot, brewed frappuccino plunger pot single shot that. Americano, instant, black at decaffeinated that half and half.
+          </p>
+        </div>
+        <div class="col-md-5">
+        <picture>       
+        <img src="images/coffee_3.jpeg" alt="coffee">
+        </picture>      
+        </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading"> SO WHY US? <span class="text-muted"></span></h2>
+        <p class="lead">Crema, sit redeye whipped, siphon macchiato spoon froth mazagran shop coffee. 
+            Grounds seasonal redeye viennese beans half and half et brewed cinnamon. Froth qui medium java, robusta café au lait redeye plunger pot trifecta skinny grinder. 
+            Variety, aromatic trifecta coffee doppio frappuccino dripper to go. Instant est, steamed robusta body beans shop instant shop.
+        </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+        <picture>
+        <img src="images/coffee_2.jpeg" alt="coffee">
+        </picture>
+        </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+        <div class="col-md-7">
+        <h2 class="featurette-heading"> NATURAL LIKE OUR PASSION. <span class="text-muted"></span></h2>
+        <p class="lead">Medium, black aroma wings as java aroma shop roast french press espresso. 
+            Skinny half and half, affogato, brewed galão affogato, cortado spoon plunger pot saucer white to go. 
+            Coffee skinny, cup percolator, decaffeinated, filter variety viennese chicory skinny. 
+            So, cortado, spoon milk ut latte chicory. Americano dripper robust, foam kopi-luwak, organic, half and half cream blue mountain aromatic instant sweet.</p>
+        </div>
+        <div class="col-md-5">
+        <picture>       
+        <img src="images/coffee_6.jpeg" alt="coffee" size="50%";>
+        </picture>       
+        </div>
+        </div>
+
+        <hr class="featurette-divider">
+        </div>
+        </div>
+  </div>
+
+
+  </main>
+
+
+<footer>
+
+    <style>
+        .inner-main img {
+        mix-blend-mode: luminosity;
+        width: 240px;
+        }
+
+        footer {
+            margin-top: 50px;
+            background-color: rgb(99, 35, 10);
+            padding: 30px;
+        }
+
+        footer .top {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer-header {
+            font-size: 28;
+            font-family: 'Sulphur Point', sans-serif;
+            color: white;
+            bottom: 10%;
+        }
+
+
+
+        .contact-container {
+            font-family: 'Sulphur Point', sans-serif;
+            color: white;
+        }
+
+        footer .main {
+            display: flex;
+            justify-content: space-between;
+            font-family: 'Sulphur Point', sans-serif;
+            color: white;
+        }
+
+        footer .left .inner-main {
+            font-family: 'Sulphur Point', sans-serif;
+            color: white;
+        }
+
+        footer .inner-main {
+            width: 40%;
+        }
+
+        footer .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            font-size: 3;
+            font-family: 'Sulphur Point', sans-serif;
+            color: white;
+        }
+
+        footer .footer-bottom ul {
+            display: flex;
+            font-size: 9;
+            font-family: 'Sulphur Point', sans-serif;
+            color: white;
+        }
+    </style>
+
+<footer class="page-footer font-small blue pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+
+  
+          <!-- Content -->
+          <h7 class="text-uppercase">DON'T MISS OUT!</h7>
+          <p style="color: white">Subscribe in our newsletter here or automatic~!</p>
+
+          <form class="input-group">
+            <input type="text" class="form-control form-control-sm" placeholder="Your email"
+              aria-label="Your email" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-sm btn-outline-white my-0" type="button" >Sign up</button>
+            </div>
+          </form>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h7 class="text-uppercase">CUSTOMER INFO</h7>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" style="color: #ceb4c8">Terms & Conditions</a>
+            </li>
+            <li>
+              <a href="#!" style="color: #ceb4c8">Private Policy</a>
+            </li>
+            <li>
+              <a href="#!" style="color: #ceb4c8">F&Q</a>
+            </li>
+            <li>
+              <a href="#!" style="color: #ceb4c8">Donations</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h7 class="text-uppercase">ORDER INFO</h7>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" style="color: #ceb4c8">Size Chart</a>
+            </li>
+            <li>
+              <a href="#!" style="color: #ceb4c8">Shipping Rates</a>
+            </li>
+            <li>
+              <a href="#!" style="color: #ceb4c8">Delivery Times</a>
+            </li>
+            <li>
+              <a href="#!" style="color: #ceb4c8">Returns/Exchanges</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="color: white">© 2020 Copyright:
+      <a href="https://caf'fine.com/" style="color: #ceb4c8"> caf'fine.com</a>
+    </div>
+    <!-- Copyright -->
+    </footer>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
